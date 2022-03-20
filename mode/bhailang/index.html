@@ -1,13 +1,13 @@
 <!doctype html>
 
-<title>CodeMirror: Brainfuck mode</title>
+<title>CodeMirror: Bhailang mode</title>
 <meta charset="utf-8"/>
 <link rel=stylesheet href="../../doc/docs.css">
 
 <link rel="stylesheet" href="../../lib/codemirror.css">
 <script src="../../lib/codemirror.js"></script>
-<script src="../../addon/edit/matchbrackets.js"></script>
-<script src="./brainfuck.js"></script>
+<script src="../../addon/mode/simple.js"></script>
+<script src="bhailang.js"></script>
 <style>
 	.CodeMirror { border: 2px inset #dee; }
     </style>
@@ -48,9 +48,7 @@ bye bhai
 
     <script>
       var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-        lineNumbers: true,
-        matchBrackets: true,
-        mode: "text/x-bhailang"
+        mode: "bhailang"
       });
     </script>
 
