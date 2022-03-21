@@ -31,6 +31,7 @@
             { regex: /^\bbol bhai\b/, token: "keyword" },
             { regex: /^\bbhai ye hai\b/, token: "keyword" },
             { regex: /^\bagar bhai\b/, token: "keyword" },
+            { regex: /^\bnahi to bhai\b/, token: "keyword" },
             { regex: /^\bwarna bhai\b/, token: "keyword" },
             { regex: /^\bnalla\b/, token: "keyword" },
             { regex: /^\bjab tak bhai\b/, token: "keyword" },
